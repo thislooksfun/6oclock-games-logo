@@ -1,0 +1,130 @@
+div.logo::before {
+	position: relative;
+	height: 80px;
+	width: 80px;
+	margin: 0 auto;
+	top: 5px;
+	display: block;
+	content: "6";
+	font-size: 60px;
+	text-align: center;
+	border: 5px solid #FD8524;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	z-index: -1;
+}
+
+div.logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: Avenir Next !important;
+	height: 100px;
+	width: 100px;
+	border: 5px solid #FD8524;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	color: #FCA329;
+}
+
+div.logo::after {
+	position: relative;
+	content: "";
+	display: block;
+	background-color: #fff;
+	height: 10px;
+	width: 15px;
+	top: -4px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+
+div.logo.middle::before {
+	height: 120px;
+	width: 120px;
+	top: 7.5px;
+	font-size: 90px;
+	border: 7.5px solid #FD8524;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	border-radius: 120px;
+	z-index: -1;
+}
+
+div.logo.middle {
+	height: 150px;
+	width: 150px;
+	border: 7.5px solid #FD8524;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+}
+
+div.logo.middle::after {
+	height: 20px;
+	width: 30px;
+	top: -8px;
+}
+
+
+
+div.logo.big::before {
+	height: 160px;
+	width: 160px;
+	top: 10px;
+	font-size: 120px;
+	border: 10px solid #FD8524;
+	-webkit-border-radius: 160px;
+	-moz-border-radius: 160px;
+	border-radius: 160px;
+	z-index: -1;
+}
+
+div.logo.big {
+	height: 200px;
+	width: 200px;
+	border: 10px solid #FD8524;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+}
+
+div.logo.big::after {
+	height: 20px;
+	width: 30px;
+	top: -8px;
+}
+
+
+
+div.logo.huge::before {
+	height: 320px;
+	width: 320px;
+	top: 20px;
+	font-size: 240px;
+	border: 20px solid #FD8524;
+	-webkit-border-radius: 320px;
+	-moz-border-radius: 320px;
+	border-radius: 320x;
+	z-index: -1;
+}
+
+div.logo.huge {
+	top: 14px;
+	left: 12px;
+	height: 400px;
+	width: 400px;
+	border: 20px solid #FD8524;
+	-webkit-border-radius: 400px;
+	-moz-border-radius: 400px;
+	border-radius: 400px;
+}
+
+div.logo.huge::after {
+	height: 20px;
+	width: 30px;
+	top: -8px;
+}
