@@ -1,3 +1,5 @@
+//Version: 1.0.0
+
 // --User variables--
 var circleColor = "#FD8524";
 var textColor = "#FCA329";
